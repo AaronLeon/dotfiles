@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/AaronLeon/Documents/workspace/website/src/js'
+let g:netrw_dirhist_2='/Users/AaronLeon/Documents/workspace/website/src'
+let g:netrw_dirhist_3='/Users/AaronLeon/Documents/workspace/website'
+let g:netrw_dirhist_4='/Users/AaronLeon/Documents/workspace/womentum/public/css'
+let g:netrw_dirhist_5='/Users/AaronLeon/Documents/workspace/northwestern/EECS_395_CAT/H2/tests/test1/diff'
+let g:netrw_dirhist_6='/Users/AaronLeon/Documents/workspace/website'
+let g:netrw_dirhist_7='/Users/AaronLeon/Documents/workspace/womentum/public'
+let g:netrw_dirhist_8='/Users/AaronLeon/Documents/workspace/resume'
