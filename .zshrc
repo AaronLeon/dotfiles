@@ -1,21 +1,7 @@
-export NVM_DIR="/home/$USER/.nvm"
-[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-PATH="/usr/local/bin/nvim:$PATH"
-# Path to user binaries 
-PATH="/Users/AaronLeon/npm/bin:$PATH"
-
-# Path to Heroku toolbelt
-PATH="/usr/local/heroku/bin:$PATH"
-
-# Path to Rust
-PATH="/Users/AaronLeon/.cargo/bin:$PATH"
-
-alias nvim="vim"
-alias ws="cd ~/Documents/workspace"
+alias ws="cd /home/$USER/Documents/workspace"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/AaronLeon/.oh-my-zsh
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/

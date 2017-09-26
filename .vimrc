@@ -21,6 +21,7 @@ filetype plugin indent on
 
 "Enable airline 
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_idx_mode = 1
 set laststatus=2
 
 "NerdTree
@@ -37,3 +38,5 @@ map <C-t> :TagbarToggle<CR>
 syntax enable
 colorscheme onedark
 hi LineNr ctermfg=white 
+
+let g:vim_json_syntax_conceal = 0"
