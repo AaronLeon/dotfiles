@@ -1,5 +1,14 @@
-"Use Pathogen
-execute pathogen#infect()
+" Vim Plug Plugins
+call plug#begin()
+Plug 'scrooloose/nerdcommenter'
+Plug 'joshdick/onedark.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'yggdroot/indentline'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
+Plug 'ervandew/supertab'
+Plug 'jiangmiao/auto-pairs'
+Plug 'mattn/emmet-vim'
             
 "Line Numbers
 set number
@@ -21,12 +30,9 @@ filetype plugin indent on
 
 "Enable airline 
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#buffer_idx_mode = 1
+let g:airline_powerline_fonts = 1
 set laststatus=2
-
-"NerdTree
-let NERDTreeShowHidden=1
-map <C-n> :NERDTreeToggle<CR>
+set ttimeoutlen=50
 
 "Emmet
 let g:user_emmet_expandabbr_key = '<c-e>'
@@ -35,8 +41,9 @@ let g:user_emmet_expandabbr_key = '<c-e>'
 map <C-t> :TagbarToggle<CR>
 
 "Atom One Dark Color Scheme
-syntax enable
+syntax on
 colorscheme onedark
-hi LineNr ctermfg=white 
+set background=dark
+highlight LineNr ctermfg=white
 
 let g:vim_json_syntax_conceal = 0"
