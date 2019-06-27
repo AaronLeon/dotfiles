@@ -9,6 +9,7 @@ Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
+call plug#end()
             
 "Line Numbers
 set number
@@ -45,5 +46,6 @@ syntax on
 colorscheme onedark
 set background=dark
 highlight LineNr ctermfg=white
+highlight Comment ctermfg=gray
 
 let g:vim_json_syntax_conceal = 0"
